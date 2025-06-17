@@ -36,9 +36,8 @@ def load_vectorstore():
 vectorstore = load_vectorstore()
 
 # UI
-st.image("ai_holding_book.png", use_column_width=True)
-st.title("📘 Iqra University Academic Policy Chatbot (RAG)")
-st.write("Ask me anything from the Academic Policy of Iqra University.")
+st.title("📘 Academic Policy Chatbot (RAG)")
+st.write("Ask me anything from the Academic Policy.")
 
 query = st.text_input("❓ Ask a question:")
 
