@@ -14,6 +14,7 @@ st.set_page_config(page_title="📘 Academic Policy Chatbot", layout="centered")
 load_dotenv()
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
+
 # Initialize Groq client
 groq_client = Groq(api_key=GROQ_API_KEY)
 
@@ -35,8 +36,9 @@ def load_vectorstore():
 vectorstore = load_vectorstore()
 
 # UI
-st.title("📘 Academic Policy Chatbot (RAG)")
-st.write("Ask me anything from the Academic Policy Manual.")
+st.image("ai_holding_book.png", use_column_width=True)
+st.title("📘 Iqra University Academic Policy Chatbot (RAG)")
+st.write("Ask me anything from the Academic Policy of Iqra University.")
 
 query = st.text_input("❓ Ask a question:")
 

@@ -1,0 +1,2 @@
+https://academic-policy-chatbot.streamlit.app/
+https://github.com/huzaifaFahim/academic_policy_chatbot
